@@ -20,6 +20,6 @@ CookieScanner
 
 ### Go Patch ###
 /vendor/
-/Godeps/
+# /Godeps/
 
 # End of https://www.gitignore.io/api/go
