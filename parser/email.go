@@ -129,7 +129,7 @@ func init() {
 <body style="background-color:#E7E7E7;">
   <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"> Your website's cookies in-depth report. </div>
   <div style="background-color:#E7E7E7;">
-    <table align="center" background="https://privacy-direct.nl/wp-content/uploads/2019/03/logo-pd.png" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:url(https://privacy-direct.nl/wp-content/uploads/2019/03/logo-pd.png) top center / cover no-repeat;width:100%;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
       <tbody>
         <tr>
           <td>
