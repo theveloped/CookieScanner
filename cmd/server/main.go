@@ -30,7 +30,7 @@ import (
 
 	"github.com/theveloped/CookieScanner/cmd"
 	"github.com/theveloped/CookieScanner/parser"
-	// "github.com/theveloped/CookieScanner/utils"
+	"github.com/theveloped/CookieScanner/utils"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
@@ -83,8 +83,6 @@ var (
 	mailUser     string
 	mailPassword string
 	mailFrom     string
-
-	port       	 int
 )
 
 func jsonContentType(next http.Handler) http.Handler {
@@ -143,7 +141,6 @@ func RegisterCommand(app *kingpin.Application, opts *cmd.CommonOptions) {
 	c.Flag("mail-user", "mail login user").Envar("MAIL_USER").StringVar(&mailUser)
 	c.Flag("mail-password", "mail login password").Envar("MAIL_PASSWORD").StringVar(&mailPassword)
 	c.Flag("mail-from", "mail sender from address").Envar("MAIL_FROM").StringVar(&mailFrom)
-	c.Flag("port", "chrome remote debugger listen port").Default("9222").IntVar(&port)
 	c.Action(func(context *kingpin.ParseContext) error {
 		return handler(opts)
 	})
@@ -156,11 +153,10 @@ func getVersionFunc(opts *cmd.CommonOptions) http.HandlerFunc {
 			defer func() {
 				versionErr = err
 			}()
-
-			// port, err := utils.GetRandomPort()
-			// if err != nil {
-			// 	return
-			// }
+			port, err := utils.GetRandomPort()
+			if err != nil {
+				return
+			}
 
 			t := parser.NewTask(&parser.TaskConfig{
 				Timeout:           opts.Timeout,
@@ -214,15 +210,14 @@ func asyncEmailReport(opts *cmd.CommonOptions, site string, mailTo string) {
 
 	startTime := time.Now()
 
-	var err error
-	// port, err := utils.GetRandomPort()
-	// if err != nil {
-	// 	logrus.WithFields(logrus.Fields{
-	// 		"site": site,
-	// 		"to":   mailTo,
-	// 	}).WithError(err).Error("start chrome task with random debugger port failed")
-	// 	return
-	// }
+	port, err := utils.GetRandomPort()
+	if err != nil {
+		logrus.WithFields(logrus.Fields{
+			"site": site,
+			"to":   mailTo,
+		}).WithError(err).Error("start chrome task with random debugger port failed")
+		return
+	}
 
 	t := parser.NewTask(&parser.TaskConfig{
 		Timeout:           opts.Timeout,
@@ -381,12 +376,11 @@ func analyzeFunc(opts *cmd.CommonOptions) http.HandlerFunc {
 			defer inflightSem.Release(1)
 		}
 
-		var err error
-		// port, err := utils.GetRandomPort()
-		// if err != nil {
-		// 	sendResponse(http.StatusInternalServerError, false, err, nil, rw)
-		// 	return
-		// }
+		port, err := utils.GetRandomPort()
+		if err != nil {
+			sendResponse(http.StatusInternalServerError, false, err, nil, rw)
+			return
+		}
 
 		t := parser.NewTask(&parser.TaskConfig{
 			Timeout:           opts.Timeout,
