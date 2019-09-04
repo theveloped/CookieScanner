@@ -49,14 +49,14 @@ First, install [`Google Chrome`](https://www.google.com/chrome/) in your operati
 Or you can start a headless Chrome in docker with
 
 ```shell
-$ docker container run -d -p 9222:9222 zenika/alpine-chrome --no-sandbox \ 
+$ docker container run -d -p 9222:9222 zenika/alpine-chrome --no-sandbox \
  --remote-debugging-address=0.0.0.0 --remote-debugging-port=9222
 ```
 
 Then, install the `CookieScanner` using `go get`.
 
 ```shell
-$ go get github.com/CovenantSQL/CookieScanner
+$ go get github.com/theveloped/CookieScanner
 ```
 
 ### Usage
