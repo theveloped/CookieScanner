@@ -30,7 +30,7 @@ import (
 
 	"github.com/theveloped/CookieScanner/cmd"
 	"github.com/theveloped/CookieScanner/parser"
-	"github.com/theveloped/CookieScanner/utils"
+	// "github.com/theveloped/CookieScanner/utils"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
@@ -156,6 +156,8 @@ func getVersionFunc(opts *cmd.CommonOptions) http.HandlerFunc {
 			defer func() {
 				versionErr = err
 			}()
+
+			var err error
 			// port, err := utils.GetRandomPort()
 			// if err != nil {
 			// 	return
@@ -213,6 +215,7 @@ func asyncEmailReport(opts *cmd.CommonOptions, site string, mailTo string) {
 
 	startTime := time.Now()
 
+	var err error
 	// port, err := utils.GetRandomPort()
 	// if err != nil {
 	// 	logrus.WithFields(logrus.Fields{
@@ -379,6 +382,7 @@ func analyzeFunc(opts *cmd.CommonOptions) http.HandlerFunc {
 			defer inflightSem.Release(1)
 		}
 
+		var err error
 		// port, err := utils.GetRandomPort()
 		// if err != nil {
 		// 	sendResponse(http.StatusInternalServerError, false, err, nil, rw)
