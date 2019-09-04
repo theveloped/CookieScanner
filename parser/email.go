@@ -587,6 +587,113 @@ func init() {
                class="" style="vertical-align:top;width:600px;"
             >
           <![endif]-->
+                                <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="vertical-align:top;padding:0;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                            <tr>
+                                              <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                                                <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+      >
+        <tr>
+
+              <td>
+            <![endif]-->
+                                                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                                  <tr>
+                                                    <td style="padding:4px;">
+                                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#A1A0A0;border-radius:3px;width:30px;">
+                                                        <tr>
+                                                          <td style="font-size:0;height:30px;vertical-align:middle;width:30px;"> <a href="https://www.facebook.com/sharer/sharer.php?u=#" target="_blank">
+                    <img height="30" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png" style="border-radius:3px;" width="30">
+                  </a> </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!--[if mso | IE]>
+              </td>
+
+              <td>
+            <![endif]-->
+                                                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                                  <tr>
+                                                    <td style="padding:4px;">
+                                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#A1A0A0;border-radius:3px;width:30px;">
+                                                        <tr>
+                                                          <td style="font-size:0;height:30px;vertical-align:middle;width:30px;"> <a href="https://plus.google.com/share?url=#" target="_blank">
+                    <img height="30" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/google-plus.png" style="border-radius:3px;" width="30">
+                  </a> </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!--[if mso | IE]>
+              </td>
+
+              <td>
+            <![endif]-->
+                                                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                                  <tr>
+                                                    <td style="padding:4px;">
+                                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#A1A0A0;border-radius:3px;width:30px;">
+                                                        <tr>
+                                                          <td style="font-size:0;height:30px;vertical-align:middle;width:30px;"> <a href="https://twitter.com/home?status=#" target="_blank">
+                    <img height="30" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png" style="border-radius:3px;" width="30">
+                  </a> </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!--[if mso | IE]>
+              </td>
+
+              <td>
+            <![endif]-->
+                                                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                                  <tr>
+                                                    <td style="padding:4px;">
+                                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#A1A0A0;border-radius:3px;width:30px;">
+                                                        <tr>
+                                                          <td style="font-size:0;height:30px;vertical-align:middle;width:30px;"> <a href="https://www.linkedin.com/shareArticle?mini=true&url=#&title=&summary=&source=" target="_blank">
+                    <img height="30" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" style="border-radius:3px;" width="30">
+                  </a> </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!--[if mso | IE]>
+              </td>
+
+          </tr>
+        </table>
+      <![endif]-->
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                                <div style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:400;line-height:16px;text-align:center;color:#445566;"> You are receiving this email because you requested for cookies report at Privacy Direct website https://privacy-direct.nl and agreed to receive emails from us regarding new features, events and special offers. </div>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                                <div style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:400;line-height:16px;text-align:center;color:#445566;"> &copy; privacy-direct.nl, All Rights Reserved. </div>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
                                 <!--[if mso | IE]>
             </td>
 
