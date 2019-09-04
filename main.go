@@ -24,7 +24,7 @@ import (
 	"github.com/CovenantSQL/CookieScanner/cmd/cli"
 	"github.com/CovenantSQL/CookieScanner/cmd/server"
 	"github.com/CovenantSQL/CookieScanner/cmd/version"
-	"github.com/CovenantSQL/theveloped/parser"
+	"github.com/theveloped/CookieScanner/parser"
 	"github.com/sirupsen/logrus"
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
 )

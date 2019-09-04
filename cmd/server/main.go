@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"github.com/CovenantSQL/CookieScanner/cmd"
-	"github.com/CovenantSQL/theveloped/parser"
+	"github.com/theveloped/CookieScanner/parser"
 	"github.com/CovenantSQL/CookieScanner/utils"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
