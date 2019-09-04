@@ -157,7 +157,6 @@ func getVersionFunc(opts *cmd.CommonOptions) http.HandlerFunc {
 				versionErr = err
 			}()
 
-			var err error
 			// port, err := utils.GetRandomPort()
 			// if err != nil {
 			// 	return
