@@ -30,7 +30,7 @@ func init() {
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
-  <title> GDPR Expert Cookies Report </title>
+  <title> Privacy Direct Cookies Report </title>
   <!--[if !mso]><!-- -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!--<![endif]-->
@@ -129,13 +129,13 @@ func init() {
 <body style="background-color:#E7E7E7;">
   <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"> Your website's cookies in-depth report. </div>
   <div style="background-color:#E7E7E7;">
-    <table align="center" background="https://cdn.jsdelivr.net/gh/CovenantLabs/assets@c59ad83/gdprexpert/bg_small.png" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:url(https://cdn.jsdelivr.net/gh/CovenantLabs/assets@c59ad83/gdprexpert/bg_small.png) top center / cover no-repeat;width:100%;">
+    <table align="center" background="https://privacy-direct.nl/wp-content/uploads/2019/03/logo-pd.png" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:url(https://privacy-direct.nl/wp-content/uploads/2019/03/logo-pd.png) top center / cover no-repeat;width:100%;">
       <tbody>
         <tr>
           <td>
             <!--[if mso | IE]>
         <v:rect  style="mso-width-percent:1000;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false">
-        <v:fill  origin="0.5, 0" position="0.5, 0" src="https://cdn.jsdelivr.net/gh/CovenantLabs/assets@c59ad83/gdprexpert/bg_small.png" type="tile" />
+        <v:fill  origin="0.5, 0" position="0.5, 0" src="https://privacy-direct.nl/wp-content/uploads/2019/03/logo-pd.png" type="tile" />
         <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
 
       <table
@@ -166,7 +166,7 @@ func init() {
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                   <tbody>
                                     <tr>
-                                      <td style="width:200px;"> <img alt="" height="auto" src="https://cdn.jsdelivr.net/gh/CovenantLabs/assets@a92103d/gdprexpert/logo_white.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="200">                                        </td>
+                                      <td style="width:200px;"> <img alt="" height="auto" src="https://privacy-direct.nl/wp-content/uploads/2019/03/logo-pd.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="200">                                        </td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -237,7 +237,7 @@ func init() {
                       <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                         <tbody>
                           <tr>
-                            <td style="width:600px;"> <a href="https://gdprexpert.io" target="_blank">
+                            <td style="width:600px;"> <a href="https://privacy-direct.nl" target="_blank">
 
       <img alt="" height="auto" src="data:image/png;base64,{{.ScreenShotImage}}" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="600">
 
@@ -329,7 +329,7 @@ func init() {
                             </tr>
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <div style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:24px;text-align:left;color:#637381;"> GDPRExpert Team </div>
+                                <div style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:24px;text-align:left;color:#637381;"> Privacy Direct Team </div>
                               </td>
                             </tr>
                           </table>
@@ -448,7 +448,7 @@ func init() {
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                             <tr>
                               <td align="left" style="font-size:0px;padding:10px 25px;padding-bottom:0;word-break:break-word;">
-                                <div style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:20px;font-weight:bold;line-height:24px;text-align:left;color:#212b35;"> Come talk to us, we are the GDPR experts! </div>
+                                <div style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:20px;font-weight:bold;line-height:24px;text-align:left;color:#212b35;"> Come talk to us, we are the privacy experts! </div>
                               </td>
                             </tr>
                             <tr>
@@ -463,7 +463,7 @@ func init() {
                                     <tr>
                                       <td style="width:120px;"> <a href="https://go.crisp.chat/chat/embed/?website_id=d867c91b-30ea-4fba-b69e-352730e254c2" target="_blank">
 
-      <img height="auto" src="https://cdn.jsdelivr.net/gh/CovenantLabs/assets/gdprexpert/crisp_logo.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="120">
+      <img height="auto" src="https://privacy-direct.nl/wp-content/uploads/2019/03/logo-pd.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="120">
 
         </a> </td>
                                     </tr>
@@ -680,12 +680,12 @@ func init() {
                                             </tr>
                                             <tr>
                                               <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                                <div style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:400;line-height:16px;text-align:center;color:#445566;"> You are receiving this email because you requested for cookies report at GDPRExpert website https://gdprexpert.io and agreed to receive emails from us regarding new features, events and special offers. </div>
+                                                <div style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:400;line-height:16px;text-align:center;color:#445566;"> You are receiving this email because you requested for cookies report at Privacy Direct website https://privacy-direct.nl and agreed to receive emails from us regarding new features, events and special offers. </div>
                                               </td>
                                             </tr>
                                             <tr>
                                               <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                                <div style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:400;line-height:16px;text-align:center;color:#445566;"> &copy; GDPRExpert.io, All Rights Reserved. </div>
+                                                <div style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:400;line-height:16px;text-align:center;color:#445566;"> &copy; privacy-direct.nl, All Rights Reserved. </div>
                                               </td>
                                             </tr>
                                           </table>
@@ -756,7 +756,7 @@ func init() {
                                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                               <tr>
                                                 <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                                  <div style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:bold;line-height:16px;text-align:center;color:#445566;"> <a class="footer-link" href="https://gdprexper.io/privacy" style="color: #888888;">Privacy</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a class="footer-link" href="https://gdprexpert.io" style="color: #888888;">Website</a>                                                    </div>
+                                                  <div style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:bold;line-height:16px;text-align:center;color:#445566;"> <a class="footer-link" href="https://privacy-direct.nl/privacyverklaring/" style="color: #888888;">Privacy</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a class="footer-link" href="https://privacy-direct.nl" style="color: #888888;">Website</a>                                                    </div>
                                                 </td>
                                               </tr>
                                             </table>

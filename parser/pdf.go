@@ -54,8 +54,8 @@ func init() {
 <body>
 <div class="container mt-5">
     <section>
-        <a class="text-right d-block mb-3" href="https://gdprexpert.io">
-            <img class="image w-25" src="https://cdn.jsdelivr.net/gh/CovenantLabs/assets/gdprexpert/logo_io.png"/>
+        <a class="text-right d-block mb-3" href="https://privacy-direct.nl/">
+            <img class="image w-25" src="https://privacy-direct.nl/wp-content/uploads/2019/03/logo-pd.png"/>
         </a>
     </section>
     <section class="mb-5">
